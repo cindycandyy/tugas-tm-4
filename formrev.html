@@ -1,0 +1,318 @@
+<html lang="en"></html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>
+    Create an Account
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+  <style>
+    @font-face {
+  font-family: 'Manrope Semibold';
+  src: url('manrope-semibold.otf'); /* sesuain sama nama fontnya */
+  font-weight: 600;
+  font-style: normal;
+}
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    h1{
+      color: #000;
+      font-family: 'Manrope Semibold';
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+
+    h3{
+    width: 363px;
+  height: 60px;
+  flex-shrink: 0;  
+  color: #566D7E;
+  font-family: 'Afacad';
+  font-size: 40px;
+  font-style: bold ; /* or normal, depending on the style you want */
+  font-weight: 700;
+  line-height: normal;  
+    }
+
+  body {
+            font-family: 'Manrope Semibold';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #566D7E;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select,
+        input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #D2D2D2;
+            border-radius: 3px;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+        }
+
+        input[type="password"] {
+            position: relative;
+        }
+
+        input[type="password"]::after {
+            content: #566D7E;
+            font-family: 'Manrope Semibold';
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        input[type="password"]:focus::after {
+            content: "#566D7E";
+        }
+
+        button {
+            background-color: #566D7E;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #566D7E;
+        }
+
+        .remember-me {
+            margin-bottom: 15px;
+        }
+
+        .remember-me input {
+            margin-right: 5px;
+        }
+
+        .remember-me label {
+            display: inline;
+        }
+
+        .error {
+            color: red;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+
+        @media screen and (max-width: 400px) {
+            .container {
+                width: 95%;
+                max-width: none;
+            }
+        }
+
+  body {
+            font-family: 'Manrope Semibold';
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            color: #566D7E;
+            font-size: 14px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input::placeholder {
+            color: #999;
+        }
+        .phone-input {
+            display: flex;
+            align-items: center;
+            border: 1px solid #D2D2D2;
+            border-radius: 4px;
+        }
+        .country-code {
+            padding: 8px;
+            border-right: 1px solid #ccc;
+            font-weight: 600;
+            color: #566D7E;
+            font-size: 14px;
+        }
+        .phone-input input {
+            border: none;
+            flex-grow: 1;
+        }
+
+        .label {
+  width: 100%;
+  color: #566D7E;
+  font-size: 14px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  word-wrap: break-word;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+margin-top: 4px;
+  box-sizing: border-box;
+  border: 1px solid #D4D4D4;
+  border-radius: 4px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  color: #242A31;
+}
+
+input::placeholder {
+  color: #A9A9A9;
+}
+
+        
+  </style>
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md border-2 border-blue-500">
+    <div class="flex justify-center mb-4">
+      <img src="Lambang Wordmark ITS.png" height="40" width="292px" \>
+    </div>
+    <h1>
+      Create an account
+    </h1>
+    <h3> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet">
+      UKM ITS 2024
+    </h3>
+    <form action="#" method="post">
+      <div>
+
+<div>
+  <div class="label"></div>
+  <label for="first">Name</label>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+</div>
+
+<div>
+  <div class="label">Email</div>
+  <label for="email"></label>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+</div>
+
+<div>
+  <div class="label">Password</div>
+  <label for="password"></label>
+  <input type="password" id="password" name="password" placeholder="Enter your password"
+    pattern="^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$"
+    title="Password must contain at least one number, one alphabet, one symbol and be at least 8 characters long"
+    required>
+</div>
+
+<div>
+  <div class="label">Gender</div>
+  <label for="gender"></label>
+  <select id="gender" name="gender" required>
+    <option value="female">Female</option>
+    <option value="male">Male</option>
+  </select>
+</div>
+
+
+  <div>
+<label for="phone">Phone Number</label>
+<div class="phone-input">
+  <span class="country-code">+92</span>
+  <input type="tel" id="phone" placeholder="enter your phonenumber">
+</div>
+
+<div>
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <input id="remember" type="checkbox"
+    style="width: 20px; height: 20px; border-radius: 5px; border: 1px solid #CDD1E0; margin-right: 10px;" />
+  <label for="remember" style="color: #C3C3C3; font-size: 14px; font-family: 'Manrope', sans-serif; font-weight: 600;">
+    Remember Me
+  </label>
+</div>
+
+<div>
+<button type="submit" class="mt-4 background: #566D7E text-white py-2 px-4 rounded-lg w-full">Sign Up</button>
+
+<div>
+<div class="flex items-center my-4">
+  <hr class="flex-grow border-gray-300" />
+  <span class="mx-2 text-gray-500">Or With</span>
+  <hr class="flex-grow border-gray-300" />
+</div>
+
+  <div
+    style="padding: 10px; border-radius: 8px; border: 0.50px #D4D4D4 solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+    <button
+      style="display: inline-flex; justify-content: flex-start; align-items: center; gap: 8px; background: none; border: none; padding: 0;">
+      <img style="width: 24px; height: 24px" src="Lambang ITS.png" />
+      <div
+        style="text-align: right; color: #242A31; font-size: 13px; font-family: Manrope; font-weight: 600; word-wrap: break-word">
+        Sign in with ITS SSO
+      </div>
+    </button>
+  </div>
+  
+  <div
+    style="width: 46%; padding: 10px; border-radius: 8px; border: 0.50px #D4D4D4 solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+    <button
+      style="display: inline-flex; justify-content: flex-start; align-items: center; gap: 8px; background: none; border: none; padding: 0;">
+      <img style="width: 24px; height: 24px" src="google.png" />
+      <div
+        style="text-align: right; color: #242A31; font-size: 13px; font-family: Manrope; font-weight: 600; word-wrap: break-word">
+        Google
+      </div>
+    </button>
+  </div>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <div
+      style="color: #C3C3C3; font-size: 14px; font-family: Manrope; font-weight: 600; display: inline-block; word-wrap: break-word;">
+      Already have an account ?
+      <span style="color: #566D7E; font-size: 14px; font-family: Manrope; font-weight: 600; cursor: pointer;">
+        Login
+      </span>
+    </div>
+  </div>
